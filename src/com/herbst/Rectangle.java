@@ -49,18 +49,18 @@ public class Rectangle extends Shape {
 		this.x = x;
 	}
 
-	public void draw() {
-		
+	public void draw(Graphics g) {
+		g.drawRect(x, y, 200, 200);
 	}
 			//change to x, y , width and height
 			
 		
 		// TODO Auto-generated method stub
 
-	public void paint(Graphics g) {
-		// TODO Auto-generated method stub
-		g.drawRect(100, 100, 200, 200);
-	}
+//	public void paint(Graphics g) {
+//		// TODO Auto-generated method stub
+//		g.drawRect(x, y, 200, 200);
+//	}
 
 
 		

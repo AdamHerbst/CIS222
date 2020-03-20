@@ -46,15 +46,15 @@ public class Circle extends Shape {
 	public void setX(int x) {
 		this.x = x;
 	}
-	public void draw() {
-		
+	public void draw(Graphics g) {
+		g.drawOval(x, y, 200, 200);
 	}
 
 
 
-	public void paint(Graphics g) {
-		// TODO Auto-generated method stub
-		g.drawOval(100, 100, 200, 200);
-	}
+//	public void paint(Graphics g) {
+//		// TODO Auto-generated method stub
+//		g.drawOval(x, y, 200, 200);
+//	}
 
 }

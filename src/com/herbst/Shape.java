@@ -23,8 +23,8 @@ public abstract class Shape {
 //		this.size = size;
 //	}
 
-	public abstract void draw();
+	public abstract void draw(Graphics g);
 
-	public abstract void paint(Graphics g);
+	//public abstract void paint(Graphics g);
 
 }
